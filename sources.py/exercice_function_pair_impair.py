@@ -17,10 +17,18 @@ def estPair(nombre):
 
 # Code principal
 #
+
+# L'utilisateur encode un nombre
 nombre_encode = input("Encodez un nombre :")
+
+# Appel de la fonction estPair avec le nombre encodé. Retour de True ou False.
 parite = estPair(nombre_encode)
+
+# Si le nombre est pair...
 if parite == True:
     print(nombre_encode,"est pair !")
+
+# Sinon...
 else:
     print(nombre_encode,"est impair !")
 
